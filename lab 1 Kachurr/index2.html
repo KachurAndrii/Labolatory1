@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафе "Смачний Куток"</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h2>Кафе "Смачний Куток"</h2>
+    <p>Вітаємо вас у нашому кафе! Ось декілька наших популярних страв:</p>
+
+    <div class="menu-item">
+        <h3>Піца "Маргарита"</h3>
+        <p class="description">Соковита піца з помідорами, базиліком та сиром моцарелла.</p>
+        <button class="order-btn" data-item="Піца Маргарита">Замовити</button>
+    </div>
+
+    <div class="menu-item">
+        <h3>Салат "Цезар"</h3>
+        <p class="description">Легкий салат з куркою, пармезаном та крутоном.</p>
+        <button class="order-btn" data-item="Салат Цезар">Замовити</button>
+    </div>
+
+    <div class="menu-item">
+        <h3>Чізкейк</h3>
+        <p class="description">Класичний чізкейк з ягідним соусом.</p>
+        <button class="order-btn" data-item="Чізкейк">Замовити</button>
+    </div>
+
+    <p id="order-status">Ви ще не зробили замовлення.</p>
+
+    <button id="highlight-menu">Виділити всі страви</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

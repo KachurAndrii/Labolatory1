@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+}
+h2 {
+    color: #444;
+}
+.menu-item {
+    margin: 15px 0;
+}
+.highlight {
+    background-color: yellow;
+}
+#order-status {
+    margin-top: 20px;
+    color: green;
+}
+button {
+    padding: 10px 15px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #4cae4c;
+}
